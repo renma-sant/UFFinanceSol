@@ -12,7 +12,7 @@ Nesse diretório haverão alguns estudos de ações brasileiras e ETFs estipulad
 ### LISTA DE ETF's Americanos 
 **'SPY'**, **'XLB'**, **'XLF'**, **'XLI'**, **'XLK'**, **'XLP'**, **'XLU'**, **'XLV'**, **'XLY'**, **'XTN'**, **'EWJ'**, **'EWG'**, **'EEM'**, **'TLT'**, **'GLD'**
   
-##  Conceitos e Insights: 1ª WEEK 🔥  
+##  Conceitos e Insights Iniciais🔥
 - Revisão de alguns conceitos de Macroeconomia. Com a queda na taxa de juros alguns setores tendem a se beneficiar mesmo que a queda não seja tão forte quanto a esperada.
 - Questões referentes a catástrofes naturais no sul do país estão mudando expectativas e o mercado reagiu de alguma forma a esse evento catastrófico. (plotamos algumas ações e vimos tendências)
 - A montagem da primeira carteira deve ser feita considerando a priori uma análise preliminar do valor das ações com fechamentos semanais estipuladas na dinâmica partindo para algum fundamento de macroeconomia no geral e depois vamos ajustando.
@@ -20,5 +20,10 @@ Nesse diretório haverão alguns estudos de ações brasileiras e ETFs estipulad
 - Cada membro do time irá focar em estudar de forma mais elementar setores mais chave para a carteira, tomando cuidado com decisões de diversificação. 
 
 #### Notas Para Soluções de Código ✨  
-  - Acho que o primeiro código atendeu parcialmente a discussão, devo melhorar o script para informações de forma mais visual. Entretanto, tendo a utilizar o Python para realizar uma engenharia de dados e montar um BI com as informações que precisamos, ainda estou maturando a ideia.
+  - Acho que o primeiro código atendeu parcialmente a discussão, devo melhorar o script para informações de forma mais visual. Entretanto, tendo a utilizar o Python para realizar uma engenharia de dados e montar um BI com as informações que precisamos, ainda estou maturando a ideia. \[Cancelado]
   - Preciso fazer um estudo estatístico de ETF's, essa parte é crucial para a carteira. Imagino que haja API's para puxar preços como ouro e ver a correlação com GLD por exemplo. Na segunda semana quero ter um esqueleto disso.
+
+##  Update na Sexta Semana 🔥
+  - Acho uma perda de tempo focar em apresentações para essa dinâmica. Produzi códigos muito mais úteis e acho que o dos gráficos está atendendo.
+  - Fiz um para pegar dados do Fundamentus e também outro para acompanhar o fechamento ajustado das ações.
+  - Um código que gostaria de produzir é o de ETF's, quero avaliar de alguma forma essas opções porque a parte da carteira para o  exterior está dando mais retorno.
