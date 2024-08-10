@@ -1,7 +1,7 @@
 # UFFinanceSol 📝  
 Criação de soluções para tomar decisões de escolha de ativos do processo de ingresso da liga financeira da Universidade Federal Fluminense.
 
-Nesse diretório haverão alguns estudos de ações brasileiras e ETFs estipulados para criação e gerenciamento de carteira.
+Nesse diretório haverão algumas soluções em código para nossos estudos de ações brasileiras e ETFs estipulados para criação e gerenciamento de carteira.
 
 
 ## Ações e Exchange-Traded Funds da Dinâmica  🚀
@@ -12,18 +12,23 @@ Nesse diretório haverão alguns estudos de ações brasileiras e ETFs estipulad
 ### LISTA DE ETF's Americanos 
 **'SPY'**, **'XLB'**, **'XLF'**, **'XLI'**, **'XLK'**, **'XLP'**, **'XLU'**, **'XLV'**, **'XLY'**, **'XTN'**, **'EWJ'**, **'EWG'**, **'EEM'**, **'TLT'**, **'GLD'**
   
-##  Conceitos e Insights Iniciais🔥
-- Revisão de alguns conceitos de Macroeconomia. Com a queda na taxa de juros alguns setores tendem a se beneficiar mesmo que a queda não seja tão forte quanto a esperada.
-- Questões referentes a catástrofes naturais no sul do país estão mudando expectativas e o mercado reagiu de alguma forma a esse evento catastrófico. (plotamos algumas ações e vimos tendências)
-- A montagem da primeira carteira deve ser feita considerando a priori uma análise preliminar do valor das ações com fechamentos semanais estipuladas na dinâmica partindo para algum fundamento de macroeconomia no geral e depois vamos ajustando.
-- Sobre ETF's, não houve decisões claras na primeira reunião. Contudo, comentamos sobre a possibilidade de fazer um estudo de correlação entre ativos e produtos para tornar acertivo as escolhas destes.
-- Cada membro do time irá focar em estudar de forma mais elementar setores mais chave para a carteira, tomando cuidado com decisões de diversificação. 
+##  01 Graph_1Sem📈
+Para a primeira semana esse código ajudou o time a escolher algumas opções por uma análise Top-Down.Basicamente olhavamos o cenário macro epensavamos qual ativo dentro da cesta estava com um desempenho interessante de fechamento semanal nos últimos 6 meses.
 
-#### Notas Para Soluções de Código ✨  
-  - Acho que o primeiro código atendeu parcialmente a discussão, devo melhorar o script para informações de forma mais visual. Entretanto, tendo a utilizar o Python para realizar uma engenharia de dados e montar um BI com as informações que precisamos, ainda estou maturando a ideia. \[Cancelado]
-  - Preciso fazer um estudo estatístico de ETF's, essa parte é crucial para a carteira. Imagino que haja API's para puxar preços como ouro e ver a correlação com GLD por exemplo. Na segunda semana quero ter um esqueleto disso.
+## 02. DadosFundamentus ✨  
+Essa é uma raspagem de dados simples para ir no site Fundamentus e coletar alguns indicadores fudamentalistas. A tabela do site não trouxe todas as opções da cesta, então fiz uma validação para descobrir quais seriam as empresas a procurar pontualmente. 
 
-##  Update na Sexta Semana 🔥
-  - Acho uma perda de tempo focar em apresentações para essa dinâmica. Produzi códigos muito mais úteis e acho que o dos gráficos está atendendo.
-  - Fiz um para pegar dados do Fundamentus e também outro para acompanhar o fechamento ajustado das ações.
-  - Um código que gostaria de produzir é o de ETF's, quero avaliar de alguma forma essas opções porque a parte da carteira para o  exterior está dando mais retorno.
+## 03. RastreioRetorno 🔎
+Na minha opinião esse foi o código mais importante da dinâmica para o meu time que resolveu o problema da escolha da diversificação. Basicamente a gente queria diversificar, mas eram tantas opções que não estávamos cientes do que estava performando bem naquele momento.
+
+Esse código conseguia passar por todas as opções da cesta, quebrando semanalmente os retornos ajustados e ai conseguimos encontrar empresas boaspara colocar na nossa carteira.
+
+Os ETF's foram bem escolhidos por causa da análise macro, mas as escolhas brasileiras deixaram a desejar justamente por não termos algo nesse sentido. Imagino que esse código deve ser reescrito para minhas próximas competições.
+
+## 04. PlotsApresentacao 📖
+
+Basicamente precisávamos construir uma apresentação para mostrar aos outros competidores e à liga no geral a nossa tese de investimentos. Aqui precisei fazer uma matriz de correlação e também um backtesting simples para mostrar a nossa escolha final.
+
+Pessoalmente essa é uma parte legal de Quantitative Research que pude iniciar nesse projeto. Acho que ainda tenho muito a aprender, mas certamente foi um começo interessante.
+
+<pre>written by renma-sant<pre>
